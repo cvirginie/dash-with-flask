@@ -1,4 +1,8 @@
 # dash-with-flask
+Forked from mbkupfer/dash-with-flask
+
+Added instructions to run it from the WSL feature on Windows
+
 Simple example of integrating [Dash](https://plot.ly/products/dash/) into the flask framework.
 
 This is a demonstration on how to get [Dash](https://plot.ly/products/dash/) working inside of a flask framework. Dash is a fantastic library for those that want to create dashboard interfaces while still staying within the python domain language.
@@ -9,7 +13,14 @@ I created this because I myself had trouble figuring out this setup given the do
 
 `git clone https://github.com/mbkupfer/dash-with-flask.git`
 
-`cd dash-with-flask.git`
+Open installed Linux distribution on the WSL (Ubuntu here)   
+
+Navigate to your windows directory where you cloned the repo  
+Let's say it was cloned in "D:\Projects"  
+
+In Ubuntu on WSL, type :   
+
+`cd /mnt/d/Projects/dash-with-flask.git`
 
 `python3 -m venv venv`
 
